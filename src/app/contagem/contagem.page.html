@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>
+        <img src="/assets/img/logo.png" />
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+      <ion-item>
+          <ion-label>Prateleira:</ion-label>
+          <ion-input type="text" name="prateleira" [(ngModel)]="data.prateleira">
+          </ion-input> 
+      </ion-item>
+  
+      <ion-item>
+          <ion-label>Cod.Barras:</ion-label>
+          <ion-input type="text" name="codigo_de_barras" [(ngModel)]="data.codigo_de_barras">
+          </ion-input> 
+      </ion-item>
+      <ion-item>
+          <ion-label>Produto:</ion-label>
+          <ion-input type="text" name="codigo_do_produto" [(ngModel)]="data.codigo_do_produto">
+          </ion-input> 
+      </ion-item>
+      <ion-item>
+          <ion-label>Referencia:</ion-label>
+          <ion-input type="text" name="referencia" [(ngModel)]="data.referencia">
+          </ion-input> 
+      </ion-item>
+      <ion-item>
+          <ion-label>Descrição:</ion-label>
+          <ion-input type="text" name="descricao" [(ngModel)]="data.descricao">
+          </ion-input> 
+      </ion-item>
+      <ion-item>
+          <ion-label>Quantidade:</ion-label>
+          <ion-input type="text" name="quantidade" [(ngModel)]="data.quantidade">
+          </ion-input> 
+      </ion-item>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <ion-button href="home" size="small" color="secondary">VOLTAR</ion-button>  
+      <ion-button href="lista" size="small" color="secondary">LISTAR</ion-button>  
+  </ion-content>
+  
